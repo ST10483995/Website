@@ -82,7 +82,7 @@ a:hover {
     flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
-.sixmonth, .sixweek, .contact-info {
+.sixmonth, .sixweek, .contact-info, .courses-list, .course-item, .course-item2 {
     background-color: #fff; /* White background */
     border: 1px solid #ddd; /* Light grey border */
     border-radius: 8px; /* Rounded corners */
