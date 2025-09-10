@@ -93,6 +93,21 @@ a:hover {
     text-align: center; /* Center align the content */
 }
 
+.cart-form {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Add padding inside the box */
+    margin: 20px auto; /* Center the boxes and add spacing */
+    max-width: 400px; /* Limit the width of the boxes */
+    text-align: center; /* Center align the content */ 
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 10px; /* Add spacing between the elements */
+}
+
 .description p {
     line-height: 1.6;
     text-align: justify;

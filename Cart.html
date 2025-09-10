@@ -7,6 +7,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <section class="header">
+        <nav>
+            <a href="Home.html"><img src="logo.png" alt="Logo" class="logo"></a>
+            <h1>Empowering the Nation</h1>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Courses.html">Courses</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Cart.html">Cart</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <h2>Your Cart</h2>
+
+    <section class="cart-form">
+        <h3>Course Selection</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <input type="checkbox" id="course1" name="course1" value="Six Month Course">
+            <label for="course1"> Six Month Course - $500</label><br>
+            <input type="checkbox" id="course2" name="course2" value="Six Week Course">
+            <label for="course2"> Six Week Course - $200</label><br>
+            <input type="checkbox" id="course3" name="course3" value="One Month Course">
+            <label for="course3"> One Month Course - $100</label><br>
+        </form>
+
+        <button type="button" onclick="calculateTotal()">Calculate Total</button>
+        <p id="totalAmount">Total Amount: $0</p>
+        <button type="submit">Submit</button>
+    </section>
 </body>
 </html>
